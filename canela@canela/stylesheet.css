@@ -1,0 +1,71 @@
+/* Canela applet stylesheet */
+
+/* ── Title ───────────────────────────────────────────────── */
+.canela-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 8px 0 4px;
+}
+
+/* ── Top source buttons ───────────────────────────────────── */
+.canela-top-btns {
+    spacing: 12px;
+    padding: 4px 0 8px;
+}
+
+.canela-top-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: rgba(128,128,128,0.15);
+    border: 2px solid transparent;
+    padding: 10px;
+    transition-duration: 150ms;
+}
+.canela-top-btn:hover {
+    background-color: rgba(128,128,128,0.25);
+}
+/* .active colour is applied via inline style from accent-color setting */
+
+/* ── Mode pill ────────────────────────────────────────────── */
+.canela-modes {
+    border-radius: 999px;
+    background-color: rgba(128,128,128,0.13);
+    border: 1px solid rgba(128,128,128,0.22);
+    margin: 4px 12px;
+    padding: 3px;
+}
+
+.canela-mode-btn {
+    padding: 8px 0;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    transition-duration: 150ms;
+}
+.canela-mode-btn:hover {
+    background-color: rgba(128,128,128,0.12);
+}
+
+/* ── Hint ─────────────────────────────────────────────────── */
+.canela-hint {
+    font-size: 10px;
+    opacity: 180;
+    letter-spacing: 0.5px;
+    padding: 6px 0 4px;
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+.canela-footer {
+    font-size: 9px;
+    opacity: 130;
+    letter-spacing: 1.5px;
+    padding: 8px 0 4px;
+}
+
+/* ── Disabled ─────────────────────────────────────────────── */
+.disabled {
+    opacity: 80;
+}
