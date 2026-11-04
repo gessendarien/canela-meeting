@@ -1,0 +1,297 @@
+/* ==============================================================================
+   Canela — Hoja de Estilos macOS FaceTime Glassmorphism & Acordeón v2.0
+   ============================================================================== */
+
+/* ── Ventana del Menú (Glassmorphism macOS) ────────────────────────────────── */
+.canela-menu-window {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.popup-menu-content.canela-popup-box,
+.canela-popup-box {
+    width: 326px;
+    padding: 10px 11px 14px 11px !important;
+    background-color: rgba(246, 247, 250, 0.96) !important;
+    border-radius: 18px !important;
+    border: 1px solid rgba(255, 255, 255, 0.85) !important;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.15) !important;
+    color: #1c1c1e !important;
+}
+
+.popup-menu-content.canela-popup-box .popup-menu-item {
+    padding: 1px 0 !important;
+    background-color: transparent !important;
+    color: #1c1c1e !important;
+}
+
+.popup-menu-content.canela-popup-box .popup-menu-item:hover {
+    background-color: transparent !important;
+}
+
+/* ── Cabecera Centrada ────────────────────────────────────────────────────── */
+.canela-header {
+    spacing: 8px;
+    padding: 2px 0 6px 0;
+}
+
+.canela-header-icon {
+    color: #34c759;
+}
+
+.canela-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1c1c1e;
+}
+
+/* ── Botones de Pestaña (Cámara / Micrófono) ──────────────────────────────── */
+.canela-top-btns {
+    spacing: 12px;
+    padding: 2px 0 8px 0;
+}
+
+.canela-top-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 9px;
+    color: #636366;
+    transition-duration: 150ms;
+}
+
+.canela-top-btn:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+    color: #1c1c1e;
+}
+
+.canela-top-btn.active {
+    background-color: #34c759;
+    border-color: #34c759;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(52, 199, 89, 0.35);
+}
+
+/* ── Marco de Preview (Fijo sin saltos 304x172) ───────────────────────────── */
+.canela-preview-box {
+    width: 304px;
+    height: 172px;
+    border-radius: 14px;
+    overflow: hidden;
+    background-color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin: 2px 0 8px 0;
+}
+
+.canela-preview-mic-box {
+    width: 304px;
+    height: 172px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 8px 10px;
+    margin: 2px 0 8px 0;
+}
+
+/* ── Espectro Sonoro Vertical (11 Barras Redondeadas) ──────────────────────── */
+.canela-spectrum-container {
+    height: 52px;
+    spacing: 5px;
+    margin: 4px 0 6px 0;
+}
+
+.canela-spectrum-bar {
+    width: 7px;
+    border-radius: 999px;
+    background-color: #34c759;
+    box-shadow: 0 1px 4px rgba(52, 199, 89, 0.25);
+    transition-duration: 75ms;
+}
+
+/* ── Acordeón de Controles Comprimidos ─────────────────────────────────────── */
+.canela-accordion-item {
+    margin: 3px 0;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+    transition-duration: 150ms;
+}
+
+.canela-accordion-item:hover {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.canela-accordion-header {
+    border-radius: 12px;
+    padding: 0;
+    background-color: transparent;
+    transition-duration: 150ms;
+}
+
+.canela-accordion-header:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.canela-badge-icon-sm {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: rgba(52, 199, 89, 0.12);
+    color: #34c759;
+    padding: 4px;
+}
+
+.canela-accordion-title {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #1c1c1e;
+}
+
+.canela-accordion-val {
+    font-size: 10px;
+    font-weight: 600;
+    color: #248a3d;
+    background-color: rgba(52, 199, 89, 0.12);
+    border-radius: 999px;
+    padding: 2px 7px;
+    margin-right: 3px;
+}
+
+.canela-accordion-arrow {
+    color: #8e8e93;
+    transition-duration: 150ms;
+}
+
+.canela-accordion-body {
+    padding: 2px 6px 6px 6px;
+}
+
+/* ── Botones de Modos y Presets (Píldoras) ────────────────────────────────── */
+.canela-pills-row {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 999px;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+}
+
+.canela-pill-btn {
+    border-radius: 999px;
+    padding: 4px 7px;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #636366;
+    background-color: transparent;
+    transition-duration: 150ms;
+}
+
+.canela-pill-btn:hover {
+    color: #1c1c1e;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.canela-pill-btn.active {
+    background-color: #ffffff;
+    color: #1c1c1e;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Botón de Prueba en Vivo (Delay 2s) ───────────────────────────────────── */
+.canela-delay-btn {
+    border-radius: 11px;
+    padding: 8px 12px;
+    background-color: rgba(52, 199, 89, 0.12);
+    border: 1px solid rgba(52, 199, 89, 0.25);
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #248a3d;
+    transition-duration: 150ms;
+}
+
+.canela-delay-btn:hover {
+    background-color: rgba(52, 199, 89, 0.22);
+}
+
+.canela-delay-btn.active {
+    background-color: #34c759;
+    border-color: #34c759;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(52, 199, 89, 0.35);
+}
+
+.canela-delay-hint {
+    font-size: 9.5px;
+    color: #8e8e93;
+    font-weight: 500;
+    padding-top: 3px;
+    text-align: center;
+}
+
+/* ── Botón Principal de Mute ─────────────────────────────────────────────── */
+.canela-mute-btn {
+    border-radius: 23px;
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+    color: #34c759;
+    transition-duration: 150ms;
+}
+
+.canela-mute-btn:hover {
+    background-color: #ffffff;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+.canela-mute-btn.muted {
+    background-color: rgba(255, 59, 48, 0.12);
+    border-color: rgba(255, 59, 48, 0.25);
+    color: #ff3b30;
+}
+
+.canela-hint {
+    font-size: 11px;
+    font-weight: 500;
+    color: #8e8e93;
+    padding: 4px 0 2px 0;
+}
+
+/* ── Sliders ─────────────────────────────────────────────────────────────── */
+.canela-popup-box .slider,
+.popup-menu-content.canela-popup-box .slider {
+    height: 12px;
+    -slider-height: 4px;
+    -slider-background-color: rgba(0, 0, 0, 0.12);
+    -slider-active-background-color: #34c759;
+    -slider-border-color: transparent;
+    -slider-active-border-color: transparent;
+    -slider-border-width: 0;
+    -slider-handle-radius: 6px;
+}
+
+.canela-slider-box {
+    padding: 2px 4px;
+}
+
+.canela-slider-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1c1c1e;
+}
+
+.canela-slider-val {
+    font-size: 11px;
+    font-weight: 600;
+    color: #8e8e93;
+}
+
+/* ── Estados deshabilitados ──────────────────────────────────────────────── */
+.disabled {
+    opacity: 0.4;
+}

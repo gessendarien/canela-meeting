@@ -1,0 +1,27 @@
+{
+  "header-appearance": {
+    "type": "header",
+    "description": "Apariencia"
+  },
+  "accent-color": {
+    "type": "colorchooser",
+    "default": "rgba(52, 199, 89, 1)",
+    "description": "Color de acento (verde estilo macOS)"
+  },
+  "preview-bg-color": {
+    "type": "colorchooser",
+    "default": "rgba(235, 238, 245, 0.8)",
+    "description": "Color del área de preview"
+  },
+
+  "active-source":        { "type": "generic", "default": "cam",         "description": "Fuente activa (cam o mic)" },
+  "cam-brightness":       { "type": "generic", "default": 50,            "description": "Brillo de la cámara (0-100)" },
+  "cam-contrast":         { "type": "generic", "default": 50,            "description": "Contraste de la cámara (0-100)" },
+  "cam-blur":             { "type": "generic", "default": "none",        "description": "Desenfoque inteligente de fondo (none, soft, deep)" },
+  "cam-mode":             { "type": "generic", "default": "landscape",   "description": "Formato de video (landscape o portrait)" },
+  "cam-avatar":           { "type": "generic", "default": "none",        "description": "Avatar virtual AR (none, dog, cat, panda, cyber)" },
+  "cam-muted":            { "type": "generic", "default": false,         "description": "Cámara apagada / silenciada" },
+  "mic-gain":             { "type": "generic", "default": 50,            "description": "Ganancia / Volumen del micrófono (0-100)" },
+  "mic-voice-preset":     { "type": "generic", "default": "natural",     "description": "Preset de modulación de voz" },
+  "mic-muted":            { "type": "generic", "default": false,         "description": "Micrófono silenciado" }
+}
